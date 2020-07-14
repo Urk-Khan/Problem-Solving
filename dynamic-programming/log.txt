@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "CoinChange.py", line 43, in <module>
+    print sol.coinChange(coins, amount)
+  File "CoinChange.py", line 31, in coinChange
+    if table[n - 1][am - coins_to_add * coins[n]] == maxint:
+KeyboardInterrupt
